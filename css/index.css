@@ -1,0 +1,194 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #161A1A;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #fff;
+}
+
+.btn {
+    width: 70%;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+/* Header */
+
+header {
+    height: 10vh;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #161A1A;
+}
+
+header .fa-bars {
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* First Screen */
+
+.first-screen {
+    height: 90vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: url('/img/bg.png') center no-repeat;
+    background-size: cover; 
+    text-align: center;
+}
+
+.first-screen h1 {
+    font-size: 22px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.free-btn {
+    border: 1px solid #FFFFFF;
+}
+
+.premium-btn {
+    border: 1px solid linear-gradient(90deg, rgba(53,237,251,1) 0%, rgba(45,155,239,1) 27%, rgba(155,45,239,1) 100%);
+    background: rgb(53,237,251);
+    background: linear-gradient(90deg, rgba(53,237,251,1) 0%, rgba(45,155,239,1) 27%, rgba(155,45,239,1) 100%);
+}
+
+.price-info {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 500;
+}
+
+.price-info span {
+    color: #2DCEEF;
+}
+
+/* Second screen */
+
+.second-screen {
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+}
+
+.second-screen > img {
+    width: 100%;
+}
+
+.second-screen-text {
+    font-size: 14px;
+}
+
+.second-screen-heading {
+    padding: 10px 0 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.second-screen-heading h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+/* Third screen */
+
+.third-screen img {
+    width: 100%;
+}
+
+.third-screen {
+    font-size: 14px;
+}
+
+.third-screen-text h2 {
+    font-size: 18px;
+    padding: 20px 0px;
+}
+
+.third-screen-text {
+    padding: 0px 20px;
+}
+
+/* Fourth screen */
+
+.fourth-screen {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.fourth-screen h2 {
+    font-size: 18px;
+    padding: 20px 0px;
+}
+
+.fourth-screen span {
+    color: #2DCEEF;
+}
+
+/* fifth-screen */
+
+.fifth-screen {
+    padding: 0 20px 100px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fifth-screen > div > img {
+    width: 20%;
+}
+
+.fifth-screen > div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.fifth-screen > div > section {
+    padding: 20px;
+}
+
+.fifth-screen > div > section > h3 {
+    font-size: 16px;
+    margin-bottom: 5px
+}
+
+.fifth-screen > div > section > p {
+    font-size: 14px;
+}
+
+.fifth-screen h2 {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
+
+
